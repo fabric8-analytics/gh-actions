@@ -9,7 +9,7 @@ This action reflects [Dependency Analytics VS Code plugin](https://marketplace.v
 ## Prerequisite
 
 #### 1. Manifest File
-This acion scans manifest file (ex. requirements.txt, requirements-dev.txt etc.) for collecting a list of dependencies, hence prior to this action, target manifest file must be placed by user into workspace. 
+This action scans manifest file (ex. requirements.txt, requirements-dev.txt etc.) for collecting a list of dependencies, hence prior to this action, target manifest file must be placed by user into workspace. 
 The path to manifest is passed as parameters to action.
 
 #### 2. Dependency Installation
@@ -19,7 +19,7 @@ Location of installation directory in workspace is required as parameter in the 
 #### 3. Adding Secret
 To authenticate a user this action uses CRDA user key. 
 This key should be saved in secrets, but before that users need to generate it.<br />
-This is just one time activity to perform. 
+This is a one time activity to perform. 
 
 Here are the steps to generate a CRDA user key.<br />
 1. Install CRDA CLI from [here](https://github.com/fabric8-analytics/cli-tools/releases).
