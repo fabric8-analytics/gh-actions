@@ -1,3 +1,9 @@
+## ⚠ ️This repository has been moved ⚠
+
+`redhat-codeready-dependency-analysis` has been moved to the [`redhat-actions`](https://github.com/redhat-actions) org, and repurposed as [`crda`](https://github.com/redhat-actions/crda).
+
+This repository remains to prevent breaking existing workflows, but will no longer be maintained.
+
 # `redhat-codeready-dependency-analysis`
 
 ## Overview
